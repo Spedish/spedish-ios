@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Spedish" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,71 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Spedish" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8SH-6d-ZEc">
+                                <rect key="frame" x="247" y="50" width="105" height="33.5"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="29"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type in your username" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="A0T-8p-QOQ">
+                                <rect key="frame" x="216" y="213.5" width="166.5" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type in your password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="97E-oq-CTH">
+                                <rect key="frame" x="217" y="296" width="166" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sjm-gd-1IH">
+                                <rect key="frame" x="217" y="349" width="55" height="30"/>
+                                <state key="normal" title="Sign Up">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kic-l8-zuS">
+                                <rect key="frame" x="345" y="349" width="38" height="30"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Copyright (c) 2015 Spedish. All rights reserved." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A92-qO-G1l">
+                                <rect key="frame" x="165.5" y="545.5" width="269.5" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="A0T-8p-QOQ" secondAttribute="centerX" id="0Kf-8f-GKM"/>
+                            <constraint firstItem="sjm-gd-1IH" firstAttribute="leading" secondItem="97E-oq-CTH" secondAttribute="leading" id="28Q-zl-WTF"/>
+                            <constraint firstAttribute="centerX" secondItem="A92-qO-G1l" secondAttribute="centerX" id="2hs-jz-ngV"/>
+                            <constraint firstItem="sjm-gd-1IH" firstAttribute="top" secondItem="97E-oq-CTH" secondAttribute="bottom" constant="23" id="AD6-uy-qak"/>
+                            <constraint firstItem="A0T-8p-QOQ" firstAttribute="top" secondItem="8SH-6d-ZEc" secondAttribute="bottom" constant="130" id="AgJ-9Q-x18"/>
+                            <constraint firstAttribute="centerX" secondItem="8SH-6d-ZEc" secondAttribute="centerX" id="Mjk-ea-eUQ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="A92-qO-G1l" secondAttribute="bottom" constant="40" id="VeQ-YY-F6U"/>
+                            <constraint firstItem="kic-l8-zuS" firstAttribute="top" secondItem="97E-oq-CTH" secondAttribute="bottom" constant="23" id="bO5-4V-zaK"/>
+                            <constraint firstItem="8SH-6d-ZEc" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="50" id="d2d-Nf-DxT"/>
+                            <constraint firstItem="97E-oq-CTH" firstAttribute="trailing" secondItem="kic-l8-zuS" secondAttribute="trailing" id="eTH-80-1Yz"/>
+                            <constraint firstItem="A0T-8p-QOQ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="80" id="egR-Yc-XEy"/>
+                            <constraint firstAttribute="centerX" secondItem="A92-qO-G1l" secondAttribute="centerX" id="gdp-9i-lVm"/>
+                            <constraint firstAttribute="centerX" secondItem="A0T-8p-QOQ" secondAttribute="centerX" id="krp-z6-Pys"/>
+                            <constraint firstItem="97E-oq-CTH" firstAttribute="top" secondItem="A0T-8p-QOQ" secondAttribute="bottom" constant="52.5" id="kzx-g9-y46"/>
+                            <constraint firstItem="A0T-8p-QOQ" firstAttribute="centerX" secondItem="97E-oq-CTH" secondAttribute="centerX" constant="-0.75" id="nKX-De-ScA"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="0Kf-8f-GKM"/>
+                                <exclude reference="egR-Yc-XEy"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="312" y="537"/>
         </scene>
     </scenes>
 </document>
