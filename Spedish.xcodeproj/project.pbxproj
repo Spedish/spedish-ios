@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCDB620C1BA7E20B001BEFD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDB620B1BA7E20B001BEFD4 /* AppDelegate.swift */; };
+		CCDB620E1BA7E20B001BEFD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDB620D1BA7E20B001BEFD4 /* ViewController.swift */; };
+		CCDB62111BA7E20B001BEFD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCDB620F1BA7E20B001BEFD4 /* Main.storyboard */; };
+		CCDB62131BA7E20B001BEFD4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCDB62121BA7E20B001BEFD4 /* Images.xcassets */; };
+		CCDB62161BA7E20B001BEFD4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCDB62141BA7E20B001BEFD4 /* LaunchScreen.xib */; };
+		CCDB62221BA7E20B001BEFD4 /* SpedishTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDB62211BA7E20B001BEFD4 /* SpedishTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCDB621C1BA7E20B001BEFD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCDB61FE1BA7E20B001BEFD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCDB62051BA7E20B001BEFD4;
+			remoteInfo = Spedish;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCDB62061BA7E20B001BEFD4 /* Spedish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spedish.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCDB620A1BA7E20B001BEFD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCDB620B1BA7E20B001BEFD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCDB620D1BA7E20B001BEFD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CCDB62101BA7E20B001BEFD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCDB62121BA7E20B001BEFD4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CCDB62151BA7E20B001BEFD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CCDB621B1BA7E20B001BEFD4 /* SpedishTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpedishTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCDB62201BA7E20B001BEFD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCDB62211BA7E20B001BEFD4 /* SpedishTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpedishTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCDB62031BA7E20B001BEFD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCDB62181BA7E20B001BEFD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCDB61FD1BA7E20B001BEFD4 = {
+			isa = PBXGroup;
+			children = (
+				CCDB62081BA7E20B001BEFD4 /* Spedish */,
+				CCDB621E1BA7E20B001BEFD4 /* SpedishTests */,
+				CCDB62071BA7E20B001BEFD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCDB62071BA7E20B001BEFD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCDB62061BA7E20B001BEFD4 /* Spedish.app */,
+				CCDB621B1BA7E20B001BEFD4 /* SpedishTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCDB62081BA7E20B001BEFD4 /* Spedish */ = {
+			isa = PBXGroup;
+			children = (
+				CCDB620B1BA7E20B001BEFD4 /* AppDelegate.swift */,
+				CCDB620D1BA7E20B001BEFD4 /* ViewController.swift */,
+				CCDB620F1BA7E20B001BEFD4 /* Main.storyboard */,
+				CCDB62121BA7E20B001BEFD4 /* Images.xcassets */,
+				CCDB62141BA7E20B001BEFD4 /* LaunchScreen.xib */,
+				CCDB62091BA7E20B001BEFD4 /* Supporting Files */,
+			);
+			path = Spedish;
+			sourceTree = "<group>";
+		};
+		CCDB62091BA7E20B001BEFD4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCDB620A1BA7E20B001BEFD4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCDB621E1BA7E20B001BEFD4 /* SpedishTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCDB62211BA7E20B001BEFD4 /* SpedishTests.swift */,
+				CCDB621F1BA7E20B001BEFD4 /* Supporting Files */,
+			);
+			path = SpedishTests;
+			sourceTree = "<group>";
+		};
+		CCDB621F1BA7E20B001BEFD4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCDB62201BA7E20B001BEFD4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCDB62051BA7E20B001BEFD4 /* Spedish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCDB62251BA7E20B001BEFD4 /* Build configuration list for PBXNativeTarget "Spedish" */;
+			buildPhases = (
+				CCDB62021BA7E20B001BEFD4 /* Sources */,
+				CCDB62031BA7E20B001BEFD4 /* Frameworks */,
+				CCDB62041BA7E20B001BEFD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spedish;
+			productName = Spedish;
+			productReference = CCDB62061BA7E20B001BEFD4 /* Spedish.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCDB621A1BA7E20B001BEFD4 /* SpedishTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCDB62281BA7E20B001BEFD4 /* Build configuration list for PBXNativeTarget "SpedishTests" */;
+			buildPhases = (
+				CCDB62171BA7E20B001BEFD4 /* Sources */,
+				CCDB62181BA7E20B001BEFD4 /* Frameworks */,
+				CCDB62191BA7E20B001BEFD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCDB621D1BA7E20B001BEFD4 /* PBXTargetDependency */,
+			);
+			name = SpedishTests;
+			productName = SpedishTests;
+			productReference = CCDB621B1BA7E20B001BEFD4 /* SpedishTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCDB61FE1BA7E20B001BEFD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Spedish;
+				TargetAttributes = {
+					CCDB62051BA7E20B001BEFD4 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					CCDB621A1BA7E20B001BEFD4 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = CCDB62051BA7E20B001BEFD4;
+					};
+				};
+			};
+			buildConfigurationList = CCDB62011BA7E20B001BEFD4 /* Build configuration list for PBXProject "Spedish" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCDB61FD1BA7E20B001BEFD4;
+			productRefGroup = CCDB62071BA7E20B001BEFD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCDB62051BA7E20B001BEFD4 /* Spedish */,
+				CCDB621A1BA7E20B001BEFD4 /* SpedishTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCDB62041BA7E20B001BEFD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCDB62111BA7E20B001BEFD4 /* Main.storyboard in Resources */,
+				CCDB62161BA7E20B001BEFD4 /* LaunchScreen.xib in Resources */,
+				CCDB62131BA7E20B001BEFD4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCDB62191BA7E20B001BEFD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCDB62021BA7E20B001BEFD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCDB620E1BA7E20B001BEFD4 /* ViewController.swift in Sources */,
+				CCDB620C1BA7E20B001BEFD4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCDB62171BA7E20B001BEFD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCDB62221BA7E20B001BEFD4 /* SpedishTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCDB621D1BA7E20B001BEFD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCDB62051BA7E20B001BEFD4 /* Spedish */;
+			targetProxy = CCDB621C1BA7E20B001BEFD4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCDB620F1BA7E20B001BEFD4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCDB62101BA7E20B001BEFD4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCDB62141BA7E20B001BEFD4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCDB62151BA7E20B001BEFD4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCDB62231BA7E20B001BEFD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCDB62241BA7E20B001BEFD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCDB62261BA7E20B001BEFD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Spedish/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CCDB62271BA7E20B001BEFD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Spedish/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CCDB62291BA7E20B001BEFD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SpedishTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spedish.app/Spedish";
+			};
+			name = Debug;
+		};
+		CCDB622A1BA7E20B001BEFD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SpedishTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spedish.app/Spedish";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCDB62011BA7E20B001BEFD4 /* Build configuration list for PBXProject "Spedish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCDB62231BA7E20B001BEFD4 /* Debug */,
+				CCDB62241BA7E20B001BEFD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCDB62251BA7E20B001BEFD4 /* Build configuration list for PBXNativeTarget "Spedish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCDB62261BA7E20B001BEFD4 /* Debug */,
+				CCDB62271BA7E20B001BEFD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCDB62281BA7E20B001BEFD4 /* Build configuration list for PBXNativeTarget "SpedishTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCDB62291BA7E20B001BEFD4 /* Debug */,
+				CCDB622A1BA7E20B001BEFD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCDB61FE1BA7E20B001BEFD4 /* Project object */;
+}

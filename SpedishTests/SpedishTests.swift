@@ -1,15 +1,15 @@
 //
-//  spedish_iosTests.swift
-//  spedish-iosTests
+//  SpedishTests.swift
+//  SpedishTests
 //
-//  Created by Huaxi Wang on 9/1/15.
-//  Copyright (c) 2015 Spedish.com. All rights reserved.
+//  Created by Huaxi Wang on 9/14/15.
+//  Copyright (c) 2015 Spedish. All rights reserved.
 //
 
 import UIKit
 import XCTest
 
-class spedish_iosTests: XCTestCase {
+class SpedishTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
