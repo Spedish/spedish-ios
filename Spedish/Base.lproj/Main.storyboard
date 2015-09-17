@@ -23,11 +23,6 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type in your username" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="A0T-8p-QOQ">
-                                <rect key="frame" x="216" y="213.5" width="166.5" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type in your password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="97E-oq-CTH">
                                 <rect key="frame" x="217" y="296" width="166" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -57,6 +52,11 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type in your username" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="A0T-8p-QOQ">
+                                <rect key="frame" x="216" y="213" width="166.5" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -85,7 +85,7 @@
                     </view>
                     <connections>
                         <outlet property="password" destination="97E-oq-CTH" id="SqB-8a-D0I"/>
-                        <outlet property="userName" destination="A0T-8p-QOQ" id="KU6-Yo-ga8"/>
+                        <outlet property="username" destination="A0T-8p-QOQ" id="bUV-IY-6yV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
