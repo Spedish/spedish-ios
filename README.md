@@ -8,6 +8,7 @@ We use Carthage for xcode dependency management.
 
 Alamofire for handling restful network calls
 SwiftyJSON for json parsing
+
 http://dev.iachieved.it/iachievedit/using-carthage-with-alamofire/
 
 http://siki.io/using-carthage/
