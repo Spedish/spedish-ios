@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CC7A4DFE1BAA801500B0AC98 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC7A4DFC1BAA801500B0AC98 /* Alamofire.framework */; };
-		CC7A4DFF1BAA801500B0AC98 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC7A4DFD1BAA801500B0AC98 /* SwiftyJSON.framework */; };
+		CC7A4E001BAA95F600B0AC98 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC7A4DFD1BAA801500B0AC98 /* SwiftyJSON.framework */; };
 		CCDB620C1BA7E20B001BEFD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDB620B1BA7E20B001BEFD4 /* AppDelegate.swift */; };
 		CCDB620E1BA7E20B001BEFD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDB620D1BA7E20B001BEFD4 /* ViewController.swift */; };
 		CCDB62111BA7E20B001BEFD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCDB620F1BA7E20B001BEFD4 /* Main.storyboard */; };
@@ -47,8 +47,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC7A4E001BAA95F600B0AC98 /* SwiftyJSON.framework in Frameworks */,
 				CC7A4DFE1BAA801500B0AC98 /* Alamofire.framework in Frameworks */,
-				CC7A4DFF1BAA801500B0AC98 /* SwiftyJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,7 +223,8 @@
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework\n$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
 			);
 			outputPaths = (
 			);
