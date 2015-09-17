@@ -11,6 +11,7 @@ import Alamofire
 import SwiftyJSON
 
 class ViewController: UIViewController {
+	
 
 	@IBOutlet weak var username: UITextField!
 	
@@ -18,10 +19,24 @@ class ViewController: UIViewController {
 	
 	@IBAction func userSignUp(sender: AnyObject) {
 		
+		Alamofire.request(.GET, "http://localhost:8000/auth/").response { request, response, data, error in
+			//print(request)
+			print(response)
+			print(error)
+		}
+
+		
 	}
 	
 	@IBAction func login(sender: AnyObject) {
+		Alamofire.request(.POST, "http://localhost:8000/auth/", parameters: ["username": username.text, "password": password.text])
+			.response { request, response, data, error in
+				//print(request)
+				print(response)
+				print(error)
+		}
 		
+
 	}
 	
 	override func viewDidLoad() {
