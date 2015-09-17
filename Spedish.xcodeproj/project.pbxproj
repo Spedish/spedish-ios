@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC7A4DFE1BAA801500B0AC98 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC7A4DFC1BAA801500B0AC98 /* Alamofire.framework */; };
+		CC7A4DFF1BAA801500B0AC98 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC7A4DFD1BAA801500B0AC98 /* SwiftyJSON.framework */; };
 		CCDB620C1BA7E20B001BEFD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDB620B1BA7E20B001BEFD4 /* AppDelegate.swift */; };
 		CCDB620E1BA7E20B001BEFD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDB620D1BA7E20B001BEFD4 /* ViewController.swift */; };
 		CCDB62111BA7E20B001BEFD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCDB620F1BA7E20B001BEFD4 /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC7A4DFC1BAA801500B0AC98 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		CC7A4DFD1BAA801500B0AC98 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
 		CCDB62061BA7E20B001BEFD4 /* Spedish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spedish.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCDB620A1BA7E20B001BEFD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCDB620B1BA7E20B001BEFD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +47,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC7A4DFE1BAA801500B0AC98 /* Alamofire.framework in Frameworks */,
+				CC7A4DFF1BAA801500B0AC98 /* SwiftyJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +65,8 @@
 		CCDB61FD1BA7E20B001BEFD4 = {
 			isa = PBXGroup;
 			children = (
+				CC7A4DFC1BAA801500B0AC98 /* Alamofire.framework */,
+				CC7A4DFD1BAA801500B0AC98 /* SwiftyJSON.framework */,
 				CCDB62081BA7E20B001BEFD4 /* Spedish */,
 				CCDB621E1BA7E20B001BEFD4 /* SpedishTests */,
 				CCDB62071BA7E20B001BEFD4 /* Products */,
@@ -122,6 +130,7 @@
 				CCDB62021BA7E20B001BEFD4 /* Sources */,
 				CCDB62031BA7E20B001BEFD4 /* Frameworks */,
 				CCDB62041BA7E20B001BEFD4 /* Resources */,
+				CC7A4DFA1BAA7AC400B0AC98 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -206,6 +215,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CC7A4DFA1BAA7AC400B0AC98 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework\n$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CCDB62021BA7E20B001BEFD4 /* Sources */ = {
@@ -342,6 +368,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Spedish/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -353,6 +383,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Spedish/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

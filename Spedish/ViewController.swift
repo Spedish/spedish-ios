@@ -7,9 +7,23 @@
 //
 
 import UIKit
+import Alamofire
+import SwiftyJSON
 
 class ViewController: UIViewController {
 
+	@IBOutlet weak var username: UITextField!
+	
+	@IBOutlet weak var password: UITextField!
+	
+	@IBAction func userSignUp(sender: AnyObject) {
+		
+	}
+	
+	@IBAction func login(sender: AnyObject) {
+		
+	}
+	
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view, typically from a nib.
