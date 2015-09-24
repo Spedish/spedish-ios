@@ -29,7 +29,8 @@ class ViewController: UIViewController {
 	}
 	
 	@IBAction func login(sender: AnyObject) {
-		Alamofire.request(.POST, "http://localhost:8000/auth/", parameters: ["username": username.text, "password": password.text])
+		let parameters = ["username": username, "password": password]
+		Alamofire.request(.POST, "http://localhost:8000/auth/", parameters: parameters)
 			.response { request, response, data, error in
 				//print(request)
 				print(response)
